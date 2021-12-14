@@ -1,3 +1,4 @@
+import { Box } from "@chakra-ui/react";
 import { ReactNode } from "react";
 import { Container } from "../Container";
 
@@ -6,5 +7,9 @@ export type BasePageProps = {
 };
 
 export function BasePage({ children }: BasePageProps) {
-  return <Container>{children}</Container>;
+  return (
+    <Box my={"1rem"}>
+      <Container>{children}</Container>
+    </Box>
+  );
 }

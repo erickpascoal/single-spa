@@ -36,5 +36,22 @@
       "price": 33333,
       "id": 7
     }
+  ],
+  "categories": [
+    {
+      "name": "Roupas",
+      "code": "roupas",
+      "id": 1
+    },
+    {
+      "name": "Computador",
+      "code": "PC",
+      "id": 2
+    },
+    {
+      "name": "dddd",
+      "code": "wwwwwwwwwww",
+      "id": 3
+    }
   ]
 }
