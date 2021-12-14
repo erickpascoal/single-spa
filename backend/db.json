@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "name": "Notebook",
+      "code": "Nitro 5 a",
+      "price": 6000,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "code": "ryezen 3600",
+      "name": "Processador Ryzen",
+      "price": 1000
+    },
+    {
+      "id": 4,
+      "code": "Sei la",
+      "name": "Impressora",
+      "price": 1300
+    },
+    {
+      "name": "teste 2",
+      "code": "tes1",
+      "price": 34342,
+      "id": 5
+    },
+    {
+      "name": "dddd",
+      "code": "sss",
+      "price": 222,
+      "id": 6
+    },
+    {
+      "name": "Erick ",
+      "code": "fffff",
+      "price": 33333,
+      "id": 7
+    }
+  ]
+}

@@ -1,3 +1,9 @@
+import { Router } from "./route";
+import { ChakraProvider } from "@chakra-ui/react";
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  return (
+    <ChakraProvider>
+      <Router />
+    </ChakraProvider>
+  );
 }

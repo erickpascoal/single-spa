@@ -18,12 +18,6 @@ registerApplication({
   activeWhen: (location) => location.pathname === "/",
 });
 
-registerApplication({
-  name: "@eps/product-module",
-  app: () => System.import("@eps/product-module"),
-  activeWhen: "/products",
-});
-
 start({
   urlRerouteOnly: true,
 });
