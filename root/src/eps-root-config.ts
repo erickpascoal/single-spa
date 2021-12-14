@@ -3,7 +3,7 @@ import { registerApplication, start } from "single-spa";
 registerApplication({
   name: "@eps/core",
   app: () => System.import("@eps/core"),
-  activeWhen: (location) => location.pathname !== "/",
+  activeWhen: () => true,
 });
 
 registerApplication({

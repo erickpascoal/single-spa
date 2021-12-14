@@ -8,14 +8,13 @@ import {
   MenuList,
   Heading,
 } from "@chakra-ui/react";
+import { Logo } from "../Logo";
 
 export function Header() {
   return (
     <Box backgroundColor={"blue.500"} p={4}>
       <Flex justifyContent={"space-between"}>
-        <Heading as="h1" color={"white"}>
-          Logo
-        </Heading>
+        <Logo />
         <Menu>
           <MenuButton>
             <Avatar
