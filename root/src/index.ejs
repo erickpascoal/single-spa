@@ -33,11 +33,10 @@
       {
         "imports": {
           "@eps/root-config": "//localhost:9000/eps-root-config.js",
-          "@eps/header": "//localhost:8080/eps-header.js",
-          "@eps/footer": "//localhost:8083/eps-footer.js",
-          "@eps/auth": "//localhost:8082/eps-auth.js",
-          "@eps/product-module": "//localhost:8084/eps-product-module.js",
-          "@eps/category-module": "//localhost:8081/eps-category-module.js"
+          "@eps/core": "//localhost:9001/eps-core.js",
+          "@eps/footer": "//localhost:9002/eps-footer.js",
+          "@eps/product-module": "//localhost:9003/eps-product-module.js",
+          "@eps/category-module": "//localhost:9004/eps-category-module.js"
         }
       }
     </script>
@@ -56,7 +55,7 @@
   <body style="padding: 0; margin: 0; box-sizing: border-box; height: 100%">
     <noscript> You need to enable JavaScript to run this app. </noscript>
 
-    <div id="single-spa-application:@eps/header"></div>
+    <div id="single-spa-application:@eps/core"></div>
 
     <div id="single-spa-application:@eps/footer"></div>
 

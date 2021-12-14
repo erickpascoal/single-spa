@@ -4,7 +4,7 @@
     "jsx": "react-jsx",
     "declarationDir": "dist"
   },
-  "files": ["src/eps-auth.tsx"],
+  "files": ["src/eps-core.tsx"],
   "include": ["src/**/*"],
   "exclude": ["src/**/*.test*"]
 }
