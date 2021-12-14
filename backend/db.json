@@ -19,22 +19,16 @@
       "price": 1300
     },
     {
-      "name": "teste 2",
-      "code": "tes1",
-      "price": 34342,
-      "id": 5
-    },
-    {
-      "name": "dddd",
-      "code": "sss",
-      "price": 222,
-      "id": 6
-    },
-    {
       "name": "Erick ",
       "code": "fffff",
       "price": 33333,
       "id": 7
+    },
+    {
+      "name": "aaaa 2",
+      "code": "dddd 3",
+      "price": 2222,
+      "id": 8
     }
   ],
   "categories": [
