@@ -1,9 +1,10 @@
 import Parcel from "single-spa-react/parcel";
 import { Layout } from "../components/Layout";
+import { useAuthContext } from "../contexts/Auth";
 import { SignIn } from "../pages/SigIn";
 
 export function Router() {
-  const isAuthenticated = true;
+  const { isAuthenticated } = useAuthContext();
 
   if (!isAuthenticated) {
     return <SignIn />;

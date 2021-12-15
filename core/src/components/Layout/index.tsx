@@ -1,5 +1,6 @@
 import { Box, Flex } from "@chakra-ui/react";
 import { ReactNode } from "react";
+import Parcel from "single-spa-react/parcel";
 import { Header } from "../Header";
 import { Menu } from "../Menu";
 
@@ -17,6 +18,7 @@ export function Layout({ children }: LayoutProps) {
         </Box>
         <Box width={"100%"}> {children}</Box>
       </Flex>
+      <Parcel config={() => System.import("@eps/footer")}></Parcel>
     </Box>
   );
 }

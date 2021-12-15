@@ -6,11 +6,11 @@ registerApplication({
   activeWhen: () => true,
 });
 
-registerApplication({
-  name: "@eps/footer",
-  app: () => System.import("@eps/footer"),
-  activeWhen: (location) => location.pathname !== "/",
-});
+// registerApplication({
+//   name: "@eps/footer",
+//   app: () => System.import("@eps/footer"),
+//   activeWhen: (location) => location.pathname !== "/",
+// });
 
 start({
   urlRerouteOnly: true,
