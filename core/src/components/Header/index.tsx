@@ -19,12 +19,8 @@ export function Header() {
       <Flex justifyContent={"space-between"}>
         <Logo />
         <Menu>
-          <MenuButton>
-            <Avatar
-              name={user.name.charAt(0)}
-              bgColor={"orange.400"}
-              title={user.name}
-            ></Avatar>
+          <MenuButton title={user.name}>
+            <Avatar name={user.name.charAt(0)} bgColor={"orange.400"}></Avatar>
           </MenuButton>
           <MenuList>
             <MenuItem onClick={loggout}>Sair</MenuItem>
